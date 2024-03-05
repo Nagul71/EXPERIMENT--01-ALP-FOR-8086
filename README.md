@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
+```
+Name : Nagul K
+Roll no : 212222230089
+Date of experiment : 5/3/2024
+```
 
 
 
@@ -77,31 +78,56 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
-
-
+## Addition  
+```python
+org 100h
+MOV al,11h;
+MOV bl,20h;
+ADD al,bl;
+MOV [6379h],al;
+ret
+```
 ## Output  
+![image](https://github.com/Nagul71/EXPERIMENT--01-ALP-FOR-8086/assets/118661118/986fc31b-0ae1-40d4-812a-4b2332c8c92c)
+
  
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
+## Subtraction 
+```python
+org 100h
+MOV al,20h;
+MOV bl,[8778h];
+SUB bl,al;
+MOV [8798h],bl;
+ret
+```
+## Output
+![image](https://github.com/Nagul71/EXPERIMENT--01-ALP-FOR-8086/assets/118661118/2e94cbe2-52c9-4626-9c15-03dc90003758)
+
+## Multiplication
+```python
+org 100h
+MOV al,13h;
+MOV bl,2h;
+MUL bl;
+MOV [6063h],bl;
+ret
+```
  ## Output  
+![image](https://github.com/Nagul71/EXPERIMENT--01-ALP-FOR-8086/assets/118661118/a2aaa545-28c8-45e9-aeeb-faa420dc2c14)
 
 
-## Division alp 
-
+## Division
+```python
+org 100h
+MOV al,26h;
+MOV bl,[2369h];
+DIV bl;
+MOV [2399h],al;
+ret
+```
 ## Output  
+![image](https://github.com/Nagul71/EXPERIMENT--01-ALP-FOR-8086/assets/118661118/3f290b23-ce09-431b-b706-103bcf853c57)
 
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
